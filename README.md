@@ -27,5 +27,5 @@ Fine-tune the base model for the dataset.
     python scripts/train_volleyball_stage2_dynamic.py
 
     # Collective Activity dataset
-        python scripts/train_collective_stage2_dynamic.py
+    python scripts/train_collective_stage2_dynamic.py
     ```
