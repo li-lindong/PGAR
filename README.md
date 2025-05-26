@@ -10,7 +10,8 @@ This is the implementation of the paper "Progressive Reasoning based Group Activ
 
 ## 3. Train the Base Model
 Fine-tune the base model for the dataset. 
-    ```shell
+    ```
+    shell
     # Volleyball dataset
     cd PROJECT_PATH 
     python scripts/train_volleyball_stage1.py
