@@ -11,8 +11,7 @@ This is the implementation of the paper "Progressive Reasoning based Group Activ
 ## 3. Train the Base Model
 Fine-tune the base model for the dataset. 
     
-    ```
-    shell
+    ```shell
     # Volleyball dataset
     cd PROJECT_PATH 
     python scripts/train_volleyball_stage1.py
@@ -20,4 +19,13 @@ Fine-tune the base model for the dataset.
     # Collective Activity dataset
     cd PROJECT_PATH 
     python scripts/train_collective_stage1.py
+    ```
+
+## 4. Train the Final Model
+    ```
+    # Volleyball dataset
+    python scripts/train_volleyball_stage2_dynamic.py
+
+    # Collective Activity dataset
+        python scripts/train_collective_stage2_dynamic.py
     ```
