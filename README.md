@@ -32,7 +32,7 @@ Fine-tune the base model for the dataset.
 
 If you find our work or the codebase inspiring and useful to your research, please consider ⭐starring⭐ the repo and citing:
 ```bibtex
-@inproceedings{PGAR,
+@article{PGAR,
   title={Progressive Reasoning based Group Activity Recognition},
   author={Li, Lindong and Qing, Linbo and Tang, Wang and Wang, Pingyu and Gou, Haosong and Zhu, Ce},
   booktitle={Major Revision},
